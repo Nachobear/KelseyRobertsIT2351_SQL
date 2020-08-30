@@ -1,7 +1,7 @@
 -- *****************************************************
--- This script creates all 3 databases (AP, EX, and OM) 
+-- This script creates all 3 databases (AP, EX, and KelseyRobertsOrderManagement) 
 -- for Murach's MySQL by Joel Murach 
--- Used for IT2351 by Kelsey Roberts, fall 2020
+-- Used for IT2351 by Kelsey Roberts, Fall 2020
 -- *****************************************************
 
 -- ********************************************
