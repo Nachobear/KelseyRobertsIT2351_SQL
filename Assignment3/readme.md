@@ -1,5 +1,8 @@
  Executive Summary:
  
+ This assignment covered techniques on how to update rows and add rows to a database. It included making a copy of a table so that we could work with that instead of risking the integrity of the original data. This assignment also went over more advanced querying techniques, such as using the aggregate functions COUNT() and SUM() and summarizing data with the GROUP BY clause, ROLLUP operator, and GROUPING function.
+ 
+ 
  Query Review:
  
  Getting the create_my_guitar_shop file from the website, editing it and opening it in MySQL went smoothly. I refreshed the schema window and the database was there.
