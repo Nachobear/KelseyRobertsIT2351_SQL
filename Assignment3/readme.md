@@ -10,6 +10,12 @@
  
  Then I wrote my first update statement. As the book reccomended, I wrote a select statement first to test that my where clause worked as I intended it to. I also wrote a select statement querying he whole table after the update statement to see the updated table. It worked on the first attempt.
  
+ I had no problems with my first implementation of the count() and sum() parameters in the fifth question. I wrote a select statement for the whole order table and I manually added up the ship_amount column and counted the rows to make sure that my first query had worked correctly.
+ 
+ The query for question 6 is the one that I was stuck on for about an hour. The query was supposed to give the most expensive item in each category that had products. There were 10 rows in the products table and 4 in the categories table but when I combined them I got 40 rows and the results for each category was the same, which I knew was incorrect because I looked at the products table. Eventually I realized that I was missing the line: "WHERE categories.category_id = products.category_id". I had forgotten I needed to write that. Now I remember it was in an earlier chapter. I factored the discount percent into my query when determining the most expensive item in each category.
+ 
+ 
+ 
  
  
  
@@ -17,4 +23,5 @@
  
  Conclusion:
  
+ I ran into some obstacles in this assignment. I queryed the tables individually and got familiar with them. I experimented with earlier concepts and eventually figured out what I was doing wrong. I think I learned more in this assignment than in the last two. 
  
