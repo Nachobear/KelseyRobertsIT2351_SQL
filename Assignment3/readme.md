@@ -12,13 +12,9 @@
  
  I had no problems with my first implementation of the count() and sum() parameters in the fifth question. I wrote a select statement for the whole order table and I manually added up the ship_amount column and counted the rows to make sure that my first query had worked correctly.
  
- The query for question 6 is the one that I was stuck on for about an hour. The query was supposed to give the most expensive item in each category that had products. There were 10 rows in the products table and 4 in the categories table but when I combined them I got 40 rows and the results for each category were the same, which I knew was incorrect because I looked at the products table. Eventually I realized that I was missing the line: "WHERE categories.category_id = products.category_id". I had forgotten I needed to write that. Now I remember it was in an earlier chapter. I factored the discount percent into my query when determining the most expensive item in each category.
+ The query for question 6 is the one that I was stuck on for about an hour. The query was supposed to give the most expensive item in each category that had products. There were 10 rows in the products table and 4 in the categories table but when I combined them I got 40 rows and the results for each category were the same, which I knew was incorrect because I looked at the products table. Eventually I realized that I was missing the line: "WHERE categories.category_id = products.category_id". I had forgotten I needed to write that.*Actually now I realize I should have put that into the ON clause. It seemed to work anyway.*  Now I remember it was in an earlier chapter. I factored the discount percent into my query when determining the most expensive item in each category.
  
- 
- 
- 
- 
- 
+ The last query took me quite a while to understand. I had to go back to the book to read about IF statements and the GROUPING clause because I didn't understand it the first time reading. After looking over the book a while I finally understood it and was happy when it worked on the first try. I drew a diagram of the tables again to see the foreign key relationships and to see what tables I had to join to get the desired result set.
  
  
  Conclusion:
