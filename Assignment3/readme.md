@@ -23,5 +23,5 @@
  
  Conclusion:
  
- I ran into some obstacles in this assignment. I queryed the tables individually and got familiar with them. I experimented with earlier concepts and eventually figured out what I was doing wrong. I think I learned more in this assignment than in the last two. 
+ I ran into some obstacles in this assignment. I queried the tables individually and got familiar with them. I experimented with earlier concepts and eventually figured out what I was doing wrong. I think I learned more in this assignment than in the last two. 
  
