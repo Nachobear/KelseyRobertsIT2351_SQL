@@ -1,5 +1,7 @@
 Executive Summary:
 
+This assignment covered techniques on how to write subqueries, specifically how to replace certain joins with subqueries. It also involved functions used to convert data, such as formatting numbers and breaking down strings into substrings.
+
 
 
 Query Review:
