@@ -1,5 +1,5 @@
 Executive Summary:
 
-Query Review:
+Normalization / EER Model:
 
 Conclusion:
