@@ -1,4 +1,4 @@
-Executive Summary:
+Executive Summary: 
 
 Normalization / EER Model:
 
@@ -11,3 +11,5 @@ To achieve second normal form, each non-key column needs to depend on the entire
 To achieve third normal form, each non-key column needs to depend only on the primary key. Our second normalized tables already meet that criteria, so no changes need to be made.
 
 Conclusion:
+
+I wrote out the tables on paper after each step of normalization. Then I spent a while creating my tables in the MySQL Model and EER diagram windows. I got very frustrated at one point because I initially created two databases on accident and I couldn't figure out how to delete the first one from the EER diagram window. Eventually I found out that it could be done from the MySQL Model window (exclusively it seems). After I finished designing the database, I went to forward engineer it into a script but it kept giving me a error, saying that I didn't have permission. I still couldn't resolve it after googling it, so I created the database again by typing it into a script, using the guitar database as a guide. I had to look up some syntax from the book, like declaring a composite primary key. At first it didn't work and I couldn't tell why. I copy pasted some of the code from the guitar database to a new script and renamed it testDB to experiment with code that I know worked originally. It taught me which pieces of the code were essential for it to work. It made me realize that I had all of the essential code in my assignment2 database, so I knew that it must be a syntax error. I blocked out lines of the data with comments and eventually I found the line where I had put in an extra piece of data on accident. After that the database worked just the way I had intended it to. Then I created an EER diagram using the assignment2 database script. 
