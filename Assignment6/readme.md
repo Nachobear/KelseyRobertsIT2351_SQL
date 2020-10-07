@@ -12,4 +12,5 @@ The third procedure gave me some trouble because it took me a while to fully und
 
 Conclusion:
 
+I'm not sure how much more stored procedures can do than queries, but I suspect they are more versatile. They seem especially useful when used from applications. 
 
