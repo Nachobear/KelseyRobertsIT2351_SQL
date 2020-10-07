@@ -14,8 +14,8 @@ CREATE PROCEDURE new_price
 )
 BEGIN
 SET newPrice = (SELECT item_price - discount_amount AS new_price 
-				FROM order_items 
-				WHERE item_id = itemID); 
+		FROM order_items 
+		WHERE item_id = itemID); 
 END//
 
 CALL new_price(/*put item_id here (1-12)*/, @newPrice);
