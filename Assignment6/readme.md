@@ -6,7 +6,7 @@ Stored Programs:
 
 The first procedure was pretty simple. I declared a variable called product_count_var and used a select statement to take the count of the products and assign it that variable. Then an if statement to return one of two messages depending on whether product_count_variable was greater than 17.
 
-On the second stored procedure, I made a mistake the first time. I left out the "declare continue handler" line. I then had to write another script to delete the row I created and drop the procedure. It was a reset script that I ran every time I messed up the Assignment6no2 script. Once I added the contune handler line it worked just fine. 
+On the second stored procedure, I made a mistake the first time. I left out the "declare continue handler" line. I then had to write another script to delete the row I created and drop the procedure. It was a reset script that I ran every time I messed up the Assignment6no2 script. Once I added the contune handler line it worked just fine. This procedure is coded to display a message to the user when it detects a duplicate row entry error.
 
 The third procedure gave me some trouble because it took me a while to fully understand the syntax for out parameters. The first time I tried it, I wasn't passing a name for the out parameter variable in the call to the procedure. I assumed the variable name used inside of the procedure could be used in the final select statement.
 
