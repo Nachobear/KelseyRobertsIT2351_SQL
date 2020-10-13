@@ -6,4 +6,6 @@ To delete a customer from the guitar_shop database, I would make a procedure cal
 
 
 
+
+
 Conclusion:
