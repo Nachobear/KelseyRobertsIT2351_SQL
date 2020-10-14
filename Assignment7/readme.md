@@ -18,7 +18,7 @@ END IF;
 
 3.a.
 
-A bakery could have seasonal items on the menu. In their database they could have a table called 'menu_items' with a column called 'is_active' that holds a true/false value that represents whether or not it is currently being sold. They could have 12 events that each run once a year, on the first of each month to change the active status of items. One could be called 'october_menu_update' that makes the menu items 'pumkin_pie', 'jack_o_lantern_cookie', and 'ghost_cookie' active and the item 'frosted_sugar_cookie' inactive.
+A bakery could have seasonal items on the menu. In their database they could have a table called 'menu_items' with a column called 'is_active' that holds a true/false value that represents whether or not it is currently being sold. They could have 12 events that each run once a year, on the first of each month to change the active status of items. One could be called 'october_menu_update' that makes the menu items 'pumpkin_pie', 'jack_o_lantern_cookie', and 'ghost_cookie' active and the item 'frosted_sugar_cookie' inactive.
 
 DELIMITER //
 CREATE EVENT october_menu_update
