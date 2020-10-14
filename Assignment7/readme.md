@@ -8,6 +8,11 @@ To delete a customer from the guitar_shop database, I would make a procedure cal
 
 2.
 
+This trigger was easy to figure out with the example from the book, but I realize now I could have accomplished the same thing with less code. I could have replaced everything in between BEGIN and END with: 
+IF NOT BETWEEN(100, 1200) THEN 
+  SIGNAL SQLSTATE 'HY000'
+  SET MESSAGE_TEXT = 'new value must be greater than 100 and less than 1200.';
+END IF;
 
 3.a.
 
