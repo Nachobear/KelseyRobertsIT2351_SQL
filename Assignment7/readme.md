@@ -1,5 +1,7 @@
 Executive Summary:
 
+This assignment covered three main topics. The first was using a transaction to group related data manipulation statements to delete a customer from a database. The second was setting up a trigger to validate input before accepting it as a new value in a table. The third was finding a real-world use for an event, which is a procedure that is activated at a specific time.
+
 Stored Programs:
 
 1.
@@ -29,7 +31,6 @@ DO BEGIN
 END// 
  
 
-
-
 Conclusion:
-s
+
+The only thing I was unsure of in this assignment was if I should have set the isolation level on the deleteCustomer transaction to serializable to prevent phantom reads or not. I wasn't sure if it was necessary. 
