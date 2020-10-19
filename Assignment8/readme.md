@@ -24,6 +24,16 @@ A relay log is used to update a copy of a database by storing changes that have 
 
 Variables:
 
+Status and system variables are used to monitor a database server.
+
+Status variables contain information about the status of the MySQL server. They include things such as the number 
+of bytes received from or sent to all clients and a count of how many times a certain type of statement was sent 
+to the server.
+
+System variables are used to configure the settings of the MySQL server. They are written to the configuration 
+file which is checked at startup. They include settings such as whether or not to activate all user roles at 
+connect time and the amount of time a server waits for an activity before closing it.
+
 Privileges:
 
 Conclusion:
