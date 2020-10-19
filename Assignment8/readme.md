@@ -36,6 +36,7 @@ connect time and the amount of time a server waits for an activity before closin
 
 Privileges:
 
+A.
 /*Create a user named guitar_admin that can connect from the host Localhost with the password 'pa55word'
   Create a user named guitar_user that can connect from the host Localhost with the password 'pa55word'*/
 CREATE USER guitar_admin@localhost IDENTIFIED BY 'pa55word';
@@ -48,5 +49,20 @@ TO guitar_admin@localhost;
 GRANT SELECT, INSERT, UPDATE, DELETE
 ON guitar.*
 TO guitar_user@localhost;
+
+B.
+There are four levels of priviledges.
+Column priviledges let users access only certain columns on a table.
+A table priviledge give access to an entire table.
+A database priviledge gives access to an entire database.
+A global priviledge gives access to everything on the server.
+
+C.
+How would this code change to grant column privileges to the
+customer first_name, last_name and email_address? 
+
+To grant column privileges to the customer first_name, last_name, and email_address, the lines 'ON guitar.**' 
+
+
 
 Conclusion:
