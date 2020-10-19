@@ -1,5 +1,8 @@
 Executive Summary:
 
+This assignment covered the topics of database administrator duties, log files, and database server variables. It 
+also involved assigning priviledges to users and creating and assigning roles to users.
+
 Database Administrator Responsibilities:
 
 Database administrators are responsible for designing, creating, maintaining, securing, and backing up databases. 
@@ -71,5 +74,24 @@ TO guitar_user@localhost;
 This could be done in order to prevent the user from modifying the database structure.
 
 
+Roles:
+
+A.
+CREATE ROLE categories_update;
+
+B.
+GRANT SELECT, INSERT, UPDATE, DELETE
+ON kelseyroberts_guitarshop.categories
+TO categories_update;
+
+GRANT categories_update TO user1;
+
+C.
+Roles are used to assign priviledges to users to increase security in a more efficient manor than granting and revoking priviledges one at a time.
+
+
 
 Conclusion:
+
+I learned a lot this week, as I did every week in this 8-week class. I will miss this class. It was much more interesting than I thought it would 
+be. I hope I can write a game app one day and use what I've learned here to store player data.
