@@ -36,4 +36,17 @@ connect time and the amount of time a server waits for an activity before closin
 
 Privileges:
 
+/*Create a user named guitar_admin that can connect from the host Localhost with the password 'pa55word'
+  Create a user named guitar_user that can connect from the host Localhost with the password 'pa55word'*/
+CREATE USER guitar_admin@localhost IDENTIFIED BY 'pa55word';
+CREATE USER guitar_user@localhost IDENTIFIED BY 'pa55word';
+/*give guitar_admin all priviledges on the guitar database*/
+GRANT ALL
+ON guitar.*
+TO guitar_admin@localhost;
+/*give guitar_user the ability to edit data on the guitar database*/
+GRANT SELECT, INSERT, UPDATE, DELETE
+ON guitar.*
+TO guitar_user@localhost;
+
 Conclusion:
