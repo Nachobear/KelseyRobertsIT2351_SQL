@@ -93,5 +93,5 @@ Roles are used to assign priviledges to users to increase security in a more eff
 
 Conclusion:
 
-I learned a lot this week, as I did every week in this 8-week class. I will miss this class. It was much more interesting than I thought it would 
-be. I hope I can write a game app one day and use what I've learned here to store player data.
+I learned a lot this week, as I did every week in this 8-week class. I will miss this class. It was more interesting than I expected. I hope I can 
+write a game app one day and use what I've learned here to store player data.
