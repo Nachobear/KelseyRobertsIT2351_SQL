@@ -61,7 +61,14 @@ C.
 How would this code change to grant column privileges to the
 customer first_name, last_name and email_address? 
 
-To grant column privileges to the customer first_name, last_name, and email_address, the lines 'ON guitar.**' 
+To grant column privileges to the customer first_name, last_name, and email_address the following code 
+could be used:
+
+GRANT SELECT, INSERT, UPDATE, DELETE (first_name, last_name, email_address)
+ON guitar.customers
+TO guitar_user@localhost;
+
+This could be done in order to prevent the user from modifying the database structure.
 
 
 
